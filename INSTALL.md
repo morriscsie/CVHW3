@@ -30,7 +30,7 @@ cd cocoapi/PythonAPI
 python setup.py build_ext install
 
 # install cityscapesScripts
-cd $INSTALL_DIR
+# cd $INSTALL_DIR
 # git clone https://github.com/mcordts/cityscapesScripts.git
 # cd cityscapesScripts/
 # python setup.py build_ext install
