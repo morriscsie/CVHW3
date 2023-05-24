@@ -49,15 +49,3 @@ python setup.py build develop
 unset INSTALL_DIR
 ```
 
-To run [convert_cityscapes_to_coco.py](tools/cityscapes/convert_cityscapes_to_coco.py) and [convert_foggy_cityscapes_to_coco.py](tools/cityscapes/convert_foggy_cityscapes_to_coco.py), you also need to run:
-
-```bash
-# copy required file to cityscapesScripts toolkit
-cp tool/cityscapes/instances2dict_with_polygons.py $INSTALL_DIR/cityscapesScripts/cityscapesscripts/evaluation
-
-# recompile cityscapesScripts
-cd cityscapesScripts/
-python setup.py build_ext install
-
-pip install h5py==3.6.0 scipy==1.8.0
-```
