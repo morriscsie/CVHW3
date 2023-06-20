@@ -1,0 +1,1 @@
+python3 train.py  --epochs 60 --save-period 5 --img-size 640 --batch-size 32 --data my_source_dataset.yaml --weights yolov5s.pt --device 0

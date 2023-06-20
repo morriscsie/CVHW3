@@ -1,0 +1,1 @@
+python3 val2.py  --weights ./runs/train/exp3/weights/last.pt --device 0 --data my_target_dataset.yaml
